@@ -28,6 +28,7 @@ var con2=num2.toString();
 console.log(typeof con2);
 // String to Boolean
 var Str="mubashir";
+// var con3=Boolean(Str);
 var con3=!!Str;
 console.log(typeof con3);
 
