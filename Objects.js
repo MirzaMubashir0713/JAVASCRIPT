@@ -73,4 +73,33 @@ for(var key in clothes)
 
 // Class keyword
 
+class books{
+    language = "hindi";
+    review=4.5;
+    discount="10%";
+    rate=500;
+}
+var b=new books();
+console.log(b);
 
+// using constructor
+class books1{
+    constructor(){
+        this.language="english";
+        this.review=4.0;
+        this.rate=600;
+        this.discount="5%";
+    }
+}
+var b1=new books1()
+console.log(b1);
+
+class books2 extends books1{
+    constructor(color){
+        super();
+        this.color=color;
+        console.log("i have an english book");
+    }
+}
+var b2=new books2("red")
+console.log(b2);
