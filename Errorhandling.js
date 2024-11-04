@@ -25,7 +25,7 @@ function age(n){
 };
 
 try{
-    age(-10);
+    age(15);
 }catch(err){
     console.log(err.message);
 }finally{
